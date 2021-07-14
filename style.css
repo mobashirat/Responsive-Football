@@ -8,11 +8,13 @@
 .wallpaper-set  {
     display: flex;
     align-items: center;
+    
 }
 .wallpaper-set {
     background-color:#2D25A0;
-    width: 100%;
-    height: 600px;
+    width: 1440px;
+    height: 670px;
+
 }
 
 .wallpaper-set img{
@@ -30,7 +32,7 @@
     color: #FFFFFF;
     margin-left: 156px;
     width: 485px;
-    height: 300px;
+    height: 230px;
    font-family: 'Poppins', sans-serif;
     
 }
@@ -57,8 +59,11 @@
 .players {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-top: 10%;
+    grid-row-gap: 30px;
+    margin-top: 5%;
     margin-left: 8%;
+    padding-left: 5%;
+    
 }
 .player-name img{
     width: 300px;
@@ -71,6 +76,7 @@
     width: 330px;
     height: 450px;
     margin-bottom: 5%;
+   
 
    }
    .player-info {
@@ -87,7 +93,7 @@
 }
 .para-font {
     
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400px;
@@ -111,6 +117,7 @@
 /* Feedback */
  .feedback {
      background-color: rgb(180, 180, 180);
+     padding-left: 10%;
     
  }
 .font-design{
@@ -151,3 +158,13 @@ p  {
     text-align: center;
    
  }
+/* Media Queries */
+/* Mobile Device */
+@media only screen and (max-width:420px){
+    
+    
+
+    .players, .footer, .wallpaper-set {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
