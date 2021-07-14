@@ -52,7 +52,7 @@
     transform: scale(1.2) ;
     transition: transform 2s ease-out;
 }
-
+/* players */
 
 .players {
     display: grid;
@@ -92,3 +92,62 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400px;
 }
+    /* About Me */
+
+ .About-me {
+     background-color: grey;
+    height: 100px;
+ }
+ .author {
+     font-size: 20px;
+     color: white;
+     padding-top: 20px;
+ }
+ .author-name {
+     color: white;
+     font-family: cursive;
+     font-size: 20px;
+ }
+/* Feedback */
+ .feedback {
+     background-color: rgb(180, 180, 180);
+    
+ }
+.font-design{
+    color: black;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 5%;
+   
+}
+.input-margin {
+    padding-bottom: 5%;
+}
+.submission {
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+/* footer */
+footer img {
+    width: 483px;
+    height: 100px;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.social-icon img {
+    width:32px ;
+    height: 32px;
+
+}
+.social-icon p {
+        text-align: center;
+}
+.copyright {
+    text-align: center;
+}
+p  {
+
+    text-align: center;
+   
+ }
